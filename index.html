@@ -23,7 +23,6 @@
         }
 
         #preloder {
-            background-image: url("images/Color-Loading-2.gif");
             background-size: cover;
             background-repeat: no-repeat;
             width: 100%;
@@ -67,7 +66,9 @@
 
 <body onload="preloder1()">
     <div id="preloder">
-
+        <div class="spinner-border text-success" role="status">
+            <span class="sr-only">Loading...</span>
+          </div>
     </div>
     <!------header------------------->
     <header>
