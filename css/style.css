@@ -151,6 +151,11 @@ nav .container-fluid a:hover{
           background-color: rgb(61, 59, 59) !important;
           
       }
-  
+      input:focus{
+        outline: none !important;
+      }
+      input{
+        background-color: red;
+      }
 
     
